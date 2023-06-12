@@ -31,7 +31,7 @@ print(f"Mean Squared Error:{mse}")
 
 plt.scatter(x,y,label='Data')
 plt.plot(x,y_pred,color='red',label='Linear Regression')
-plt.title('Linear Regresion with MSE')
+plt.title('Linear Regression with MSE')
 plt.xlabel('x')
 plt.ylabel('y')
 plt.legend()
